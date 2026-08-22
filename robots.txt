@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chadwick-ho.github.io/food-beverage-labels/sitemap.xml
