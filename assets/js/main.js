@@ -1,6 +1,6 @@
 ﻿const CONFIG = {
   brandName: "Custom Label Factory",
-  whatsappNumber: "YOUR_WHATSAPP_NUMBER",
+  whatsappLink: "https://api.whatsapp.com/qr/VDSB2JOURIA5C1?autoload=1&app_absent=0",
   email: "YOUR_EMAIL_ADDRESS",
   domain: "https://zfulabels.com"
 };
@@ -15,7 +15,7 @@ const messages = {
 };
 
 function whatsappUrl(type = "quote") {
-  return `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(messages[type] || messages.quote)}`;
+  return CONFIG.whatsappLink;
 }
 
 document.querySelectorAll("[data-whatsapp]").forEach((link) => {
