@@ -2,7 +2,7 @@
   brandName: "Custom Label Factory",
   whatsappNumber: "YOUR_WHATSAPP_NUMBER",
   email: "YOUR_EMAIL_ADDRESS",
-  domain: "https://chadwick-ho.github.io/food-beverage-labels"
+  domain: "https://zfulabels.com"
 };
 
 const messages = {
