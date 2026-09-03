@@ -336,6 +336,35 @@ section { padding: 72px 0; }
 .image-card { padding: 0; overflow: hidden; }
 .image-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .image-card .card-body { padding: 20px; }
+.catalog-section .section-head {
+  align-items: start;
+}
+.catalog-grid {
+  align-items: stretch;
+}
+.catalog-card {
+  display: flex;
+  flex-direction: column;
+}
+.catalog-card img {
+  width: 100%;
+  height: min(330px, var(--product-image-size, 290px));
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: #fff;
+}
+.catalog-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 150px;
+}
+.catalog-card h3 {
+  font-size: 19px;
+}
+.catalog-card p {
+  margin-bottom: 0;
+}
 .product-card { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
 .product-card img {
   width: 100%;
