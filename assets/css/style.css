@@ -385,6 +385,45 @@ section { padding: 72px 0; }
   color: #ffd566;
   background: rgba(255,198,61,.16);
 }
+.category-section {
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+.category-showcase {
+  --product-image-size: calc((min(1180px, 100vw - 36px) - 48px) / 3);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+.category-card {
+  position: relative;
+}
+.category-card img {
+  height: min(430px, var(--product-image-size));
+}
+.product-section-dark .category-card .card-body {
+  min-height: 360px;
+}
+.category-card-featured {
+  border-color: rgba(255,198,61,.56);
+  box-shadow: 0 22px 68px rgba(0,0,0,.46);
+}
+.category-card-featured::before {
+  content: "Food focus";
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #111827;
+  font-size: 11px;
+  font-weight: 950;
+  line-height: 1;
+  text-transform: uppercase;
+}
 .chip-list {
   display: flex;
   flex-wrap: wrap;
@@ -483,6 +522,13 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .dropdown-panel { position: static; width: 100%; box-shadow: none; padding: 10px 0; border: 0; grid-template-columns: 1fr; }
   .hero-grid, .grid-2, .grid-3, .grid-4, .two-col, .footer-grid { grid-template-columns: 1fr; }
   .grid-2, .grid-3, .grid-4 { --product-image-size: calc(100vw - 36px); }
+  .category-showcase {
+    --product-image-size: calc(100vw - 36px);
+    grid-template-columns: 1fr;
+  }
+  .category-card img {
+    height: min(520px, var(--product-image-size));
+  }
   .hero-dynamic { min-height: auto; }
   .hero-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .proof-panel { grid-template-columns: 1fr; }
@@ -500,6 +546,9 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .hero-metrics { grid-template-columns: 1fr; }
   .hero-metric { min-height: 68px; }
   .grid-2, .grid-3, .grid-4 { --product-image-size: calc(100vw - 28px); }
+  .category-section { padding-top: 52px; padding-bottom: 52px; }
+  .category-showcase { --product-image-size: calc(100vw - 28px); }
+  .product-section-dark .category-card .card-body { min-height: 0; }
   .proof-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .proof-badge { min-height: 84px; }
   .trust-row { grid-template-columns: 1fr; }
