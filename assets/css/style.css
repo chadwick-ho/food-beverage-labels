@@ -484,6 +484,37 @@ section { padding: 72px 0; }
 .process .card { position: relative; padding-top: 54px; }
 .process .card::before { counter-increment: step; content: counter(step); position: absolute; top: 18px; left: 22px; width: 28px; height: 28px; border-radius: 50%; background: var(--green); color: #fff; display: grid; place-items: center; font-weight: 900; }
 .page-hero { padding: 64px 0; background: linear-gradient(120deg, #fff7eb 0%, #f8fff8 58%, #fff 100%); border-bottom: 1px solid var(--line); }
+.image-hero {
+  position: relative;
+  min-height: 430px;
+  display: grid;
+  align-items: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.image-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(7,14,24,.88) 0%, rgba(7,14,24,.64) 52%, rgba(7,14,24,.24) 100%);
+}
+.image-hero .container {
+  position: relative;
+  z-index: 1;
+}
+.image-hero h1,
+.image-hero .eyebrow {
+  color: #fff;
+}
+.image-hero .lead,
+.image-hero .crumb {
+  color: #edf5f4;
+}
+.factory-hero {
+  background-image: url("../images/factory-workshop-overview.jpg");
+}
 .crumb { color: var(--muted); font-size: 14px; margin-bottom: 14px; }
 .two-col { display: grid; grid-template-columns: .9fr 1.1fr; gap: 36px; align-items: start; }
 .text-block { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 28px; }
@@ -504,6 +535,52 @@ textarea { min-height: 140px; resize: vertical; }
 .form-note { color: var(--muted); font-size: 14px; margin: 8px 0 0; }
 .visual-slot { min-height: 320px; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(135deg, #eaf5f1, #fff7e8); display: grid; place-items: center; padding: 28px; text-align: center; color: var(--navy); }
 .visual-slot strong { font-size: 28px; line-height: 1.1; display: block; margin-bottom: 10px; }
+.factory-band {
+  min-height: 470px;
+  display: grid;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(7,14,24,.9) 0%, rgba(7,14,24,.68) 46%, rgba(7,14,24,.18) 100%),
+    url("../images/factory-workshop-overview.jpg") center / cover no-repeat;
+  color: #fff;
+}
+.factory-panel {
+  max-width: 680px;
+  margin-left: max(18px, calc((100vw - 1180px) / 2));
+}
+.factory-panel h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.06;
+}
+.factory-panel p {
+  max-width: 620px;
+  color: #eef5f5;
+  font-size: 18px;
+}
+.factory-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+.factory-stats span {
+  padding: 8px 11px;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 999px;
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.food-gallery-section .image-card img {
+  aspect-ratio: 1 / 1;
+}
+.product-section-dark.food-gallery-section .card-body {
+  min-height: 190px;
+}
 .cta-band { background: var(--navy); color: #fff; padding: 48px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .cta-band h2 { margin: 0 0 8px; color: #fff; font-size: clamp(28px, 4vw, 42px); }
 .cta-band p { margin: 0; color: #d6e2eb; max-width: 680px; }
@@ -536,6 +613,8 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .trust-row { grid-template-columns: repeat(2, 1fr); }
   .section-head, .cta-band { display: block; }
   .cta-band .section-actions { margin-top: 18px; }
+  .factory-band { min-height: 420px; }
+  .factory-panel { margin-left: auto; }
   .material-row { grid-template-columns: 1fr; }
   .form-grid { grid-template-columns: 1fr; }
 }
