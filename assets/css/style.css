@@ -6,14 +6,14 @@
   --ink: #17212b;
   --muted: #5b6773;
   --line: #dde5ec;
-  --soft: #fff6ed;
+  --soft: #f6faf7;
   --green: #19b46a;
   --green-dark: #0b7a46;
   --orange: #ff8f21;
   --gold: #ffc63d;
   --coral: #f25f3a;
   --teal: #22c6a5;
-  --cream: #fff8e8;
+  --cream: #faf5ec;
   --white: #fff;
   --shadow: 0 18px 48px rgba(18, 48, 74, .12);
   --dark-shadow: 0 18px 58px rgba(0,0,0,.38);
@@ -231,7 +231,7 @@ h1 { margin: 0; font-size: clamp(42px, 6vw, 72px); line-height: .98; color: var(
   100% { opacity: 0; transform: scale(1.12); }
 }
 section { padding: 72px 0; }
-.section-soft { background: var(--soft); }
+.section-soft { background: linear-gradient(180deg, #f8fbf8 0%, var(--soft) 58%, #eef4ef 100%); }
 .section-cream { background: var(--cream); }
 .proof-strip {
   padding: 42px 0;
@@ -239,28 +239,34 @@ section { padding: 72px 0; }
   border-bottom: 1px solid var(--line);
 }
 .factory-proof-section {
-  padding: 76px 0 92px;
-  background: linear-gradient(180deg, #fff 0%, var(--cream) 58%, #101827 100%);
-}
-.factory-proof-frame {
-  position: relative;
-  min-height: 500px;
+  min-height: 560px;
   display: grid;
   align-items: center;
-  overflow: hidden;
-  padding: clamp(28px, 5vw, 58px);
-  border: 1px solid rgba(18,48,74,.12);
-  border-radius: 8px;
+  padding: 88px 0;
   background:
-    linear-gradient(90deg, rgba(7,14,24,.9) 0%, rgba(7,14,24,.7) 48%, rgba(7,14,24,.24) 100%),
+    linear-gradient(180deg, rgba(14,23,36,.94) 0%, rgba(14,23,36,.62) 48%, rgba(14,23,36,.96) 100%),
+    linear-gradient(90deg, rgba(14,23,36,.92) 0%, rgba(14,23,36,.62) 46%, rgba(14,23,36,.3) 100%),
     url("../images/factory-workshop-overview.jpg") center / cover no-repeat;
-  box-shadow: 0 28px 70px rgba(18,48,74,.22);
+  box-shadow:
+    inset 0 28px 52px rgba(14,23,36,.52),
+    inset 0 -28px 52px rgba(14,23,36,.54);
+  color: #fff;
+}
+.factory-proof-frame {
+  min-height: 0;
+  display: block;
+  overflow: visible;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
   color: #fff;
 }
 .factory-proof-panel {
   display: grid;
-  grid-template-columns: .86fr 1.2fr;
-  gap: 44px;
+  grid-template-columns: minmax(320px, .95fr) minmax(420px, 1fr);
+  gap: 52px;
   align-items: center;
 }
 .factory-proof-copy h2 {
@@ -331,14 +337,15 @@ section { padding: 72px 0; }
   align-content: center;
 }
 .proof-badge.text-only strong {
-  font-size: clamp(22px, 2.3vw, 28px);
+  font-size: clamp(19px, 1.5vw, 22px);
+  line-height: 1;
 }
 .proof-badge strong {
   display: block;
   color: var(--green-dark);
   font-size: clamp(17px, 2vw, 23px);
   line-height: 1;
-  letter-spacing: .03em;
+  letter-spacing: 0;
 }
 .proof-badge span {
   display: block;
@@ -349,10 +356,18 @@ section { padding: 72px 0; }
   line-height: 1.2;
   text-transform: uppercase;
 }
+.factory-proof-logos {
+  grid-template-columns: repeat(3, minmax(128px, 1fr));
+  justify-self: end;
+  max-width: 560px;
+}
 .factory-proof-logos .proof-badge {
-  background: rgba(255,255,255,.92);
-  border-color: rgba(255,255,255,.72);
-  box-shadow: 0 22px 50px rgba(0,0,0,.28);
+  min-height: 118px;
+  padding: 14px 12px;
+  background: rgba(255,255,255,.9);
+  border-color: rgba(255,255,255,.66);
+  box-shadow: 0 18px 42px rgba(0,0,0,.26);
+  backdrop-filter: blur(8px);
 }
 .product-subhead {
   margin-top: 42px;
@@ -731,7 +746,9 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .proof-panel { grid-template-columns: 1fr; }
   .proof-logo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .factory-proof-panel { grid-template-columns: 1fr; gap: 26px; }
+  .factory-proof-section { min-height: 0; padding: 72px 0; }
   .factory-proof-frame { min-height: 0; }
+  .factory-proof-logos { justify-self: stretch; max-width: none; }
   .trust-row { grid-template-columns: repeat(2, 1fr); }
   .section-head, .cta-band { display: block; }
   .cta-band .section-actions { margin-top: 18px; }
@@ -749,8 +766,8 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .category-showcase { --product-image-size: calc(100vw - 28px); }
   .product-section-dark .category-card .card-body { min-height: 0; }
   .proof-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .factory-proof-section { padding: 48px 0 64px; }
-  .factory-proof-frame { padding: 24px; }
+  .factory-proof-section { padding: 56px 0; }
+  .factory-proof-frame { padding: 0; }
   .factory-proof-copy p { font-size: 16px; }
   .proof-badge { min-height: 84px; }
   .trust-row { grid-template-columns: 1fr; }
