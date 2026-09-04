@@ -237,6 +237,37 @@ section { padding: 72px 0; }
   background: linear-gradient(90deg, #fffaf1 0%, #ffffff 48%, #f2fff8 100%);
   border-bottom: 1px solid var(--line);
 }
+.factory-proof-band {
+  position: relative;
+  min-height: 520px;
+  display: grid;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(7,14,24,.92) 0%, rgba(7,14,24,.76) 48%, rgba(7,14,24,.38) 100%),
+    url("../images/factory-workshop-overview.jpg") center / cover no-repeat;
+  color: #fff;
+}
+.factory-proof-panel {
+  display: grid;
+  grid-template-columns: .86fr 1.2fr;
+  gap: 44px;
+  align-items: center;
+}
+.factory-proof-copy h2 {
+  max-width: 650px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.06;
+}
+.factory-proof-copy p {
+  max-width: 640px;
+  color: #eef5f5;
+  font-size: 17px;
+}
+.factory-proof-band .eyebrow {
+  color: var(--gold);
+}
 .proof-panel {
   display: grid;
   grid-template-columns: .82fr 1.7fr;
@@ -286,6 +317,12 @@ section { padding: 72px 0; }
   font-weight: 950;
   line-height: 1;
 }
+.proof-badge.text-only {
+  align-content: center;
+}
+.proof-badge.text-only strong {
+  font-size: clamp(22px, 2.3vw, 28px);
+}
 .proof-badge strong {
   display: block;
   color: var(--green-dark);
@@ -301,6 +338,11 @@ section { padding: 72px 0; }
   font-weight: 850;
   line-height: 1.2;
   text-transform: uppercase;
+}
+.factory-proof-logos .proof-badge {
+  background: rgba(255,255,255,.92);
+  border-color: rgba(255,255,255,.72);
+  box-shadow: 0 22px 50px rgba(0,0,0,.28);
 }
 .product-subhead {
   margin-top: 42px;
@@ -627,30 +669,6 @@ textarea { min-height: 140px; resize: vertical; }
 .form-note { color: var(--muted); font-size: 14px; margin: 8px 0 0; }
 .visual-slot { min-height: 320px; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(135deg, #eaf5f1, #fff7e8); display: grid; place-items: center; padding: 28px; text-align: center; color: var(--navy); }
 .visual-slot strong { font-size: 28px; line-height: 1.1; display: block; margin-bottom: 10px; }
-.factory-band {
-  min-height: 470px;
-  display: grid;
-  align-items: center;
-  background:
-    linear-gradient(90deg, rgba(7,14,24,.9) 0%, rgba(7,14,24,.68) 46%, rgba(7,14,24,.18) 100%),
-    url("../images/factory-workshop-overview.jpg") center / cover no-repeat;
-  color: #fff;
-}
-.factory-panel {
-  max-width: 680px;
-  margin-left: max(18px, calc((100vw - 1180px) / 2));
-}
-.factory-panel h2 {
-  margin: 0;
-  color: #fff;
-  font-size: clamp(32px, 4vw, 48px);
-  line-height: 1.06;
-}
-.factory-panel p {
-  max-width: 620px;
-  color: #eef5f5;
-  font-size: 18px;
-}
 .factory-stats {
   display: flex;
   flex-wrap: wrap;
@@ -702,11 +720,11 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .hero-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .proof-panel { grid-template-columns: 1fr; }
   .proof-logo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .factory-proof-panel { grid-template-columns: 1fr; gap: 26px; }
+  .factory-proof-band { min-height: 0; }
   .trust-row { grid-template-columns: repeat(2, 1fr); }
   .section-head, .cta-band { display: block; }
   .cta-band .section-actions { margin-top: 18px; }
-  .factory-band { min-height: 420px; }
-  .factory-panel { margin-left: auto; }
   .material-row { grid-template-columns: 1fr; }
   .form-grid { grid-template-columns: 1fr; }
 }
@@ -721,6 +739,8 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .category-showcase { --product-image-size: calc(100vw - 28px); }
   .product-section-dark .category-card .card-body { min-height: 0; }
   .proof-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .factory-proof-band { padding: 56px 0; }
+  .factory-proof-copy p { font-size: 16px; }
   .proof-badge { min-height: 84px; }
   .trust-row { grid-template-columns: 1fr; }
   .btn { width: 100%; }
