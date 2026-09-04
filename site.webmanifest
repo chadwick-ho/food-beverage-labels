@@ -1,0 +1,16 @@
+{
+  "name": "Custom Label Factory",
+  "short_name": "CL Factory",
+  "description": "Custom food, beverage and wine label manufacturing with material guidance, digital proof and WhatsApp quote support.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#12304a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
