@@ -729,17 +729,21 @@ textarea { min-height: 140px; resize: vertical; }
 .application-grid .card p {
   margin-bottom: 0;
 }
+.product-detail-section {
+  padding-top: 74px;
+  padding-bottom: 74px;
+}
 .guidance-panel {
   display: grid;
   grid-template-columns: minmax(0, .98fr) minmax(360px, 1.02fr);
-  gap: 24px;
+  gap: 28px;
   align-items: stretch;
-  margin-top: 42px;
 }
 .guidance-copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: clamp(10px, 2.4vw, 26px);
 }
 .guidance-copy h2 {
   max-width: 620px;
@@ -749,18 +753,26 @@ textarea { min-height: 140px; resize: vertical; }
 }
 .guidance-image-card {
   overflow: hidden;
-  min-height: 430px;
+  min-height: 380px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
-  box-shadow: 0 14px 42px rgba(18,48,74,.08);
+  box-shadow: 0 12px 34px rgba(18,48,74,.08);
 }
 .guidance-image-card img {
   width: 100%;
   height: 100%;
-  min-height: 430px;
-  object-fit: cover;
+  min-height: 380px;
+  object-fit: contain;
   object-position: center;
+  padding: 18px;
+}
+.compact-info-section {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+.compact-info-section .card {
+  min-height: 168px;
 }
 .cta-band { background: var(--navy); color: #fff; padding: 48px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .cta-band h2 { margin: 0 0 8px; color: #fff; font-size: clamp(28px, 4vw, 42px); }
