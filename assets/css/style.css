@@ -237,14 +237,23 @@ section { padding: 72px 0; }
   background: linear-gradient(90deg, #fffaf1 0%, #ffffff 48%, #f2fff8 100%);
   border-bottom: 1px solid var(--line);
 }
-.factory-proof-band {
+.factory-proof-section {
+  padding: 76px 0 92px;
+  background: linear-gradient(180deg, #fff 0%, var(--cream) 58%, #101827 100%);
+}
+.factory-proof-frame {
   position: relative;
-  min-height: 520px;
+  min-height: 500px;
   display: grid;
   align-items: center;
+  overflow: hidden;
+  padding: clamp(28px, 5vw, 58px);
+  border: 1px solid rgba(18,48,74,.12);
+  border-radius: 8px;
   background:
-    linear-gradient(90deg, rgba(7,14,24,.92) 0%, rgba(7,14,24,.76) 48%, rgba(7,14,24,.38) 100%),
+    linear-gradient(90deg, rgba(7,14,24,.9) 0%, rgba(7,14,24,.7) 48%, rgba(7,14,24,.24) 100%),
     url("../images/factory-workshop-overview.jpg") center / cover no-repeat;
+  box-shadow: 0 28px 70px rgba(18,48,74,.22);
   color: #fff;
 }
 .factory-proof-panel {
@@ -265,7 +274,7 @@ section { padding: 72px 0; }
   color: #eef5f5;
   font-size: 17px;
 }
-.factory-proof-band .eyebrow {
+.factory-proof-section .eyebrow {
   color: var(--gold);
 }
 .proof-panel {
@@ -721,7 +730,7 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .proof-panel { grid-template-columns: 1fr; }
   .proof-logo-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .factory-proof-panel { grid-template-columns: 1fr; gap: 26px; }
-  .factory-proof-band { min-height: 0; }
+  .factory-proof-frame { min-height: 0; }
   .trust-row { grid-template-columns: repeat(2, 1fr); }
   .section-head, .cta-band { display: block; }
   .cta-band .section-actions { margin-top: 18px; }
@@ -739,7 +748,8 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
   .category-showcase { --product-image-size: calc(100vw - 28px); }
   .product-section-dark .category-card .card-body { min-height: 0; }
   .proof-logo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .factory-proof-band { padding: 56px 0; }
+  .factory-proof-section { padding: 48px 0 64px; }
+  .factory-proof-frame { padding: 24px; }
   .factory-proof-copy p { font-size: 16px; }
   .proof-badge { min-height: 84px; }
   .trust-row { grid-template-columns: 1fr; }
