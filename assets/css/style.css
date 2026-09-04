@@ -36,11 +36,14 @@ img { max-width: 100%; display: block; }
 .topbar { background: var(--navy); color: #e8f2f0; font-size: 14px; }
 .topbar .container { display: flex; justify-content: space-between; gap: 18px; padding: 8px 0; }
 .site-header { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(10px); }
-.nav-wrap { height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--navy); letter-spacing: .01em; }
+.nav-wrap { height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; color: var(--navy); letter-spacing: .01em; white-space: nowrap; }
 .brand-mark { width: 38px; height: 38px; border-radius: 8px; background: linear-gradient(135deg, var(--green), var(--orange)); display: grid; place-items: center; color: #fff; font-weight: 900; }
-.nav { display: flex; align-items: center; gap: 24px; }
-.nav a, .drop-toggle { font-weight: 700; color: #243547; background: transparent; border: 0; padding: 10px 0; cursor: pointer; font: inherit; }
+.nav { display: flex; align-items: center; gap: clamp(10px, 1.25vw, 18px); }
+.nav a, .drop-toggle { font-weight: 700; color: #243547; background: transparent; border: 0; padding: 10px 0; cursor: pointer; font: inherit; font-size: 15px; white-space: nowrap; }
+.nav .btn { padding-inline: 14px; }
+.nav-product-link { color: var(--green-dark); }
+.nav-product-link:hover { color: var(--green); }
 .dropdown { position: relative; }
 .dropdown-panel {
   display: none;
