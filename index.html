@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -18,18 +18,31 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Custom Food & Beverage Labels Manufacturer | Custom Packaging Labels">
   <meta name="twitter:description" content="Custom food and beverage labels for jars, bottles, pouches, cans and cold storage packaging. Upload artwork and request a free digital proof.">
-  <link rel="stylesheet" href="assets/css/style.css?v=rollfix1">
+  <link rel="preload" as="image" href="assets/images/factory-hero-05-production-floor.jpg">
+  <link rel="stylesheet" href="assets/css/style.css?v=seofix1">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Custom Food & Beverage Labels Manufacturer",
-  "description": "Custom food and beverage labels for jars, bottles, pouches, cans and cold storage packaging. Upload artwork and request a free digital proof.",
-  "url": "https://zfulabels.com/index.html",
-  "provider": {
-    "@type": "Organization",
-    "name": "Custom Label Factory"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://zfulabels.com/#organization",
+      "name": "Custom Label Factory",
+      "url": "https://zfulabels.com/index.html",
+      "logo": "https://zfulabels.com/favicon.svg",
+      "description": "Custom food, beverage and wine label manufacturing with material guidance, artwork proof support and roll label production."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://zfulabels.com/#website",
+      "name": "Custom Food & Beverage Labels Manufacturer",
+      "description": "Custom food and beverage labels for jars, bottles, pouches, cans and cold storage packaging. Upload artwork and request a free digital proof.",
+      "url": "https://zfulabels.com/index.html",
+      "publisher": {
+        "@id": "https://zfulabels.com/#organization"
+      }
+    }
+  ]
 }
 </script>
 </head>
@@ -60,11 +73,11 @@
 <section class="hero hero-dynamic">
   <div class="hero-bg-stack" aria-hidden="true">
     <img loading="eager" decoding="async" fetchpriority="high" src="assets/images/factory-hero-05-production-floor.jpg" width="1920" height="1080" alt="">
-    <img loading="eager" decoding="async" src="assets/images/factory-hero-02-printing-press.jpg" width="1920" height="1080" alt="">
-    <img loading="eager" decoding="async" src="assets/images/factory-hero-03-finishing-line.jpg" width="1920" height="1080" alt="">
-    <img loading="eager" decoding="async" src="assets/images/factory-hero-06-label-machinery.jpg" width="1920" height="1080" alt="">
-    <img loading="eager" decoding="async" src="assets/images/factory-hero-01-roll-workshop.jpg" width="500" height="281" alt="">
-    <img loading="eager" decoding="async" src="assets/images/factory-hero-04-assembly-line.jpg" width="500" height="281" alt="">
+    <img loading="lazy" decoding="async" src="assets/images/factory-hero-02-printing-press.jpg" width="1920" height="1080" alt="">
+    <img loading="lazy" decoding="async" src="assets/images/factory-hero-03-finishing-line.jpg" width="1920" height="1080" alt="">
+    <img loading="lazy" decoding="async" src="assets/images/factory-hero-06-label-machinery.jpg" width="1920" height="1080" alt="">
+    <img loading="lazy" decoding="async" src="assets/images/factory-hero-01-roll-workshop.jpg" width="500" height="281" alt="">
+    <img loading="lazy" decoding="async" src="assets/images/factory-hero-04-assembly-line.jpg" width="500" height="281" alt="">
   </div>
   <div class="container hero-stage">
     <p class="eyebrow">B2B Label Manufacturing Factory</p>
@@ -232,7 +245,7 @@
     <div>
       <a class="brand" href="index.html"><span class="brand-mark">CL</span><span data-brand>Custom Label Factory</span></a>
       <p>Custom food and beverage label manufacturing with material guidance, artwork support, digital proof and worldwide shipping coordination.</p>
-      <p>WhatsApp: Use the quote button<br>Email: YOUR_EMAIL_ADDRESS</p>
+      <p>WhatsApp: Use the quote button for the fastest quote reply.</p>
     </div>
     <div>
       <h3>Products</h3>
