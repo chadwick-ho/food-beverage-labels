@@ -1,6 +1,7 @@
 ﻿const CONFIG = {
   brandName: "Custom Label Factory",
-  whatsappLink: "https://api.whatsapp.com/qr/VDSB2JOURIA5C1?autoload=1&app_absent=0",
+  whatsappLink: "https://api.whatsapp.com/message/AWJL6N3AAGIZA1?autoload=1&app_absent=0",
+  email: "ruishengmao05@gmail.com",
   domain: "https://zfulabels.com"
 };
 
@@ -19,6 +20,10 @@ function whatsappUrl(type = "quote") {
 
 document.querySelectorAll("[data-whatsapp]").forEach((link) => {
   link.setAttribute("href", whatsappUrl(link.dataset.whatsapp));
+});
+
+document.querySelectorAll("[data-email]").forEach((link) => {
+  link.setAttribute("href", `mailto:${CONFIG.email}`);
 });
 
 document.querySelectorAll("[data-brand]").forEach((node) => {
@@ -47,10 +52,20 @@ if (form) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     const status = form.querySelector(".form-status");
+    const formData = new FormData(form);
+    const lines = [];
+    formData.forEach((value, key) => {
+      if (value && typeof value === "string") {
+        lines.push(`${key}: ${value}`);
+      }
+    });
+    const subject = encodeURIComponent("Custom label quote request");
+    const body = encodeURIComponent(lines.join("\n"));
     if (status) {
-      status.textContent = "Your requirements are ready to send. Please connect a form endpoint before launch, or send the same details through WhatsApp.";
+      status.textContent = `Opening your email app to send these requirements to ${CONFIG.email}.`;
       status.setAttribute("role", "status");
     }
+    window.location.href = `mailto:${CONFIG.email}?subject=${subject}&body=${body}`;
   });
 }
 
