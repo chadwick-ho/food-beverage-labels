@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://zfulabels.com/sitemap.xml
+Sitemap: https://zfulabels.com/rss.xml
 LLMs: https://zfulabels.com/llms.txt
