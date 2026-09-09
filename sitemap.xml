@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zfulabels.com/index.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
   </url>
   <url>
     <loc>https://zfulabels.com/custom-food-labels.html</loc>
@@ -70,7 +70,19 @@
   </url>
   <url>
     <loc>https://zfulabels.com/blog.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://zfulabels.com/blog/custom-label-size-guide-bottles-jars.html</loc>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://zfulabels.com/blog/matte-vs-gloss-labels-food-beverage.html</loc>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://zfulabels.com/blog/front-back-vs-wraparound-labels.html</loc>
+    <lastmod>2026-09-09</lastmod>
   </url>
   <url>
     <loc>https://zfulabels.com/blog/custom-label-moq-100-pcs.html</loc>
@@ -126,14 +138,14 @@
   </url>
   <url>
     <loc>https://zfulabels.com/llms.txt</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
   </url>
   <url>
     <loc>https://zfulabels.com/sitemap.html</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
   </url>
   <url>
     <loc>https://zfulabels.com/rss.xml</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
   </url>
 </urlset>

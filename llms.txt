@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-09-08.
+Last updated: 2026-09-09.
 
 ## Core Product Pages
 
@@ -39,6 +39,9 @@ Primary quote contact:
 
 ## Blog Guides for Buyer Questions
 
+- Custom Label Size Guide: https://zfulabels.com/blog/custom-label-size-guide-bottles-jars.html
+- Matte vs Gloss Labels: https://zfulabels.com/blog/matte-vs-gloss-labels-food-beverage.html
+- Front and Back Labels vs Wraparound Labels: https://zfulabels.com/blog/front-back-vs-wraparound-labels.html
 - Custom Label MOQ 100 PCS: https://zfulabels.com/blog/custom-label-moq-100-pcs.html
 - Label Roll Direction Guide: https://zfulabels.com/blog/label-roll-direction-guide.html
 - Can Labels vs Printed Cans: https://zfulabels.com/blog/can-labels-vs-printed-cans.html
@@ -64,5 +67,8 @@ Primary quote contact:
 - Buyers comparing custom label MOQ often need a practical answer for whether 100 pcs is enough for market testing, samples, product photography, early retail trials and design validation.
 - Roll label buyers often need plain-language guidance on roll direction, outside or inside winding, core size, label gap, dispenser use and labeling machine compatibility.
 - Small beverage brands often compare can labels vs printed cans when deciding between lower-risk flavor testing, plain can inventory, seasonal artwork, cold drink handling and high-volume printed can programs.
+- Label size decisions should account for the usable label panel, package curve, seams, taper, copy volume, barcode area and whether the buyer needs front labels, back labels or wraparound labels.
+- Matte vs gloss label decisions should separate appearance from performance: finish affects glare, color feel and photography, while material and adhesive determine wet, cold or oily package suitability.
+- Front/back labels and wraparound labels answer different buyer tasks: separate panels support clean branding and detailed copy, while wraparound labels support fuller coverage when the container shape and application method allow it.
 - Bottle label troubleshooting topics include peeling, edge lift, smudging, condensation, oily residue, cold application, curved bottles, oversized wraparound labels and material or adhesive mismatch.
 - Buyers should confirm final regulatory wording with the responsible brand, producer, importer or compliance professional for the destination market.
