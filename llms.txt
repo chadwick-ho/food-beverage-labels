@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-09-09.
+Last updated: 2026-09-10.
 
 ## Core Product Pages
 
@@ -39,6 +39,9 @@ Primary quote contact:
 
 ## Blog Guides for Buyer Questions
 
+- Barcode and QR Code Labels: https://zfulabels.com/blog/barcode-qr-code-labels-packaging.html
+- Removable vs Permanent Label Adhesive: https://zfulabels.com/blog/removable-vs-permanent-label-adhesive.html
+- Custom Die-Cut Labels: https://zfulabels.com/blog/custom-die-cut-labels-shapes.html
 - Custom Label Size Guide: https://zfulabels.com/blog/custom-label-size-guide-bottles-jars.html
 - Matte vs Gloss Labels: https://zfulabels.com/blog/matte-vs-gloss-labels-food-beverage.html
 - Front and Back Labels vs Wraparound Labels: https://zfulabels.com/blog/front-back-vs-wraparound-labels.html
@@ -70,5 +73,8 @@ Primary quote contact:
 - Label size decisions should account for the usable label panel, package curve, seams, taper, copy volume, barcode area and whether the buyer needs front labels, back labels or wraparound labels.
 - Matte vs gloss label decisions should separate appearance from performance: finish affects glare, color feel and photography, while material and adhesive determine wet, cold or oily package suitability.
 - Front/back labels and wraparound labels answer different buyer tasks: separate panels support clean branding and detailed copy, while wraparound labels support fuller coverage when the container shape and application method allow it.
+- Barcode and QR code label planning should account for contrast, quiet space, curved surfaces, clear film, small label size, proof scanning and whether the code belongs on a front label, back label or wraparound label.
+- Removable vs permanent adhesive decisions should match the buyer task: temporary campaigns and reusable packaging may need clean removal, while retail product labels usually need stronger long-term adhesion.
+- Custom die-cut label planning should consider shape complexity, rounded corners, bleed, safe area, fragile points, roll setup and whether the shape fits the real package surface.
 - Bottle label troubleshooting topics include peeling, edge lift, smudging, condensation, oily residue, cold application, curved bottles, oversized wraparound labels and material or adhesive mismatch.
 - Buyers should confirm final regulatory wording with the responsible brand, producer, importer or compliance professional for the destination market.
