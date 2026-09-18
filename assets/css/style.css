@@ -745,6 +745,21 @@ section { padding: 72px 0; }
   font-size: 17px;
   font-weight: 650;
 }
+.article-perspective {
+  margin: 34px 0;
+  padding: 24px 0 22px;
+  border-top: 2px solid var(--green);
+  border-bottom: 1px solid var(--line);
+}
+.article-perspective .eyebrow {
+  margin-bottom: 8px;
+}
+.article-perspective h2 {
+  margin-top: 0;
+}
+.article-perspective p:last-child {
+  margin-bottom: 0;
+}
 .table-scroll {
   overflow-x: auto;
   border: 1px solid var(--line);
@@ -982,6 +997,12 @@ footer a { display: block; color: #dbe8ef; padding: 4px 0; }
 }
 @media (max-width: 560px) {
   .container { width: min(100% - 28px, 1180px); }
+  .nav-wrap { gap: 10px; }
+  .brand { min-width: 0; gap: 8px; }
+  .brand-mark { width: 34px; height: 34px; flex: 0 0 34px; }
+  .brand [data-brand] { font-size: 0; }
+  .brand [data-brand]::after { content: "ZFU Labels"; font-size: 14px; white-space: nowrap; }
+  .menu-button { flex: 0 0 auto; }
   .hero, section { padding: 48px 0; }
   .hero-dynamic { padding: 58px 0 48px; }
   .hero-metrics { grid-template-columns: 1fr; }
