@@ -718,6 +718,14 @@ section { padding: 72px 0; }
   font-size: 14px;
   font-weight: 750;
 }
+.article-byline {
+  margin: -2px 0 18px;
+  color: #435466;
+  font-size: 14px;
+}
+.article-byline strong {
+  color: var(--navy);
+}
 .article-hero-image {
   width: 100%;
   max-height: 520px;
