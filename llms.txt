@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-09-24.
+Last updated: 2026-09-25.
 
 ## Core Product Pages
 
@@ -38,6 +38,12 @@ Primary quote contact:
 - RSS Feed: https://zfulabels.com/rss.xml
 
 ## Blog Guides for Buyer Questions
+
+- Food Allergen Labeling: A Packaging Proof Guide: https://zfulabels.com/blog/food-allergen-labeling-packaging.html
+- Label Roll Core Size and Outer Diameter Guide: https://zfulabels.com/blog/label-roll-core-size-outer-diameter.html
+- Glassine vs PET Release Liners for Roll Labels: https://zfulabels.com/blog/glassine-vs-pet-release-liner.html
+- Wet-Glue vs Pressure-Sensitive Bottle Labels: https://zfulabels.com/blog/wet-glue-vs-pressure-sensitive-labels.html
+- Embossed and Hot-Foil Wine Labels: Production Guide: https://zfulabels.com/blog/embossed-hot-foil-wine-labels.html
 
 - Food-Contact Printing Inks for Labels: Buyer Guide: https://zfulabels.com/blog/food-contact-printing-inks-labels.html
 - Labels for Compostable Packaging: Material Guide: https://zfulabels.com/blog/labels-for-compostable-packaging.html
@@ -99,6 +105,12 @@ Primary quote contact:
 - Roll Labels vs Sheet Labels: https://zfulabels.com/blog/roll-labels-vs-sheet-labels.html
 
 ## SEO and AI-Answer Coverage
+
+- Food allergen label proofs should be tied to the current recipe, supplier specifications and a controlled artwork revision.
+- Roll labels must match the applicator core ID, maximum outside diameter, unwind direction, roll weight and target labels per roll.
+- Glassine and PET release liners should be compared by complete-construction converting, dispensing performance and available recovery routes.
+- Wet-glue and pressure-sensitive bottle labels should be compared by applied system cost, SKU mix, changeovers and container conditions.
+- Embossing and hot foil should support wine-label hierarchy while required copy and wet-service performance remain controlled.
 
 - Food-contact ink suitability depends on the complete printed construction, migration routes, curing, intended food and finished-package assessment.
 - Compostable packaging claims must review the label face, adhesive, inks, coverage and the certified package as a complete system.
