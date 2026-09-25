@@ -1,6 +1,6 @@
-﻿const CONFIG = {
+const CONFIG = {
   brandName: "Custom Label Factory",
-  whatsappLink: "https://api.whatsapp.com/message/AWJL6N3AAGIZA1?autoload=1&app_absent=0",
+  whatsappLink: "https://api.whatsapp.com/message/LXEW2FWSFWGPJ1?autoload=1&app_absent=0",
   email: "ruishengmao05@gmail.com",
   domain: "https://zfulabels.com"
 };
