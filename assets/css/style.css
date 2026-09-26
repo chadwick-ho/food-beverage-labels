@@ -742,6 +742,17 @@ section { padding: 72px 0; }
   margin: 18px 0 30px;
   background: #fff;
 }
+.article-figure {
+  margin: 18px 0 30px;
+}
+.article-figure .article-hero-image {
+  margin: 0;
+}
+.article-figure figcaption {
+  margin-top: 7px;
+  color: #607080;
+  font-size: 12px;
+}
 .article-callout {
   margin: 24px 0;
   padding: 18px 20px;
