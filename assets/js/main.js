@@ -49,24 +49,44 @@ document.querySelectorAll(".faq-question").forEach((button) => {
 
 const form = document.querySelector("[data-quote-form]");
 if (form) {
+  const status = form.querySelector(".form-status");
+  const preview = form.querySelector("[data-quote-preview]");
+  function requirements() {
+    const lines = [];
+    for (const [key, value] of new FormData(form)) {
+      if (typeof value !== "string" || !value.trim()) continue;
+      const input = form.elements.namedItem(key);
+      const label = input && form.querySelector(`label[for="${input.id}"]`);
+      lines.push(`${label ? label.textContent : key}: ${value.trim()}`);
+    }
+    const text = lines.join("\n");
+    if (preview) preview.value = text;
+    return text;
+  }
+  form.addEventListener("input", requirements);
+  form.addEventListener("change", requirements);
+  form.querySelector("[data-copy-quote]")?.addEventListener("click", async () => {
+    const text = requirements();
+    try {
+      await navigator.clipboard.writeText(text);
+      if (status) status.textContent = "Requirements copied. Paste them into your email or WhatsApp message.";
+    } catch {
+      preview?.focus();
+      preview?.select();
+      if (status) status.textContent = "Select and copy your requirements below.";
+    }
+  });
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    const status = form.querySelector(".form-status");
-    const formData = new FormData(form);
-    const lines = [];
-    formData.forEach((value, key) => {
-      if (value && typeof value === "string") {
-        lines.push(`${key}: ${value}`);
-      }
-    });
     const subject = encodeURIComponent("Custom label quote request");
-    const body = encodeURIComponent(lines.join("\n"));
+    const body = encodeURIComponent(requirements());
     if (status) {
       status.textContent = `Opening your email app to send these requirements to ${CONFIG.email}.`;
       status.setAttribute("role", "status");
     }
     window.location.href = `mailto:${CONFIG.email}?subject=${subject}&body=${body}`;
   });
+  requirements();
 }
 
 

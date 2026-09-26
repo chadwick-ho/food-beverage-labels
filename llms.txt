@@ -28,6 +28,11 @@ Primary quote contact:
 - WhatsApp: https://api.whatsapp.com/message/LXEW2FWSFWGPJ1?autoload=1&app_absent=0
 - Email: ruishengmao05@gmail.com
 
+## Buyer Planning Tools
+
+- Label Buying Guide: https://zfulabels.com/label-buying-guide.html
+- Label Size and Quantity Planner: https://zfulabels.com/label-planner.html - calculates wrap width, allowance and label face area; prepares a quote brief, not a price.
+
 ## Important Pages
 
 - Materials and Finishes: https://zfulabels.com/materials-finishes.html
@@ -148,8 +153,6 @@ Primary quote contact:
 - Kraft paper labels suit dry packaging; wet, oily, chilled or frozen use may need specialty paper or a kraft-look film.
 - Stand-up pouch labels should stay inside the flat filled panel and avoid zippers, seals, tear notches and gusset folds.
 
-- Custom product label pricing depends on finished size, quantity per artwork, material and adhesive, finish, shape, application format, artwork readiness, freight and the number of labels that remain usable in production.
-- Custom product label pricing depends on finished size, quantity per artwork, material and adhesive, finish, shape, application format, artwork readiness, freight and the number of labels that remain usable in production.
 - Custom product label pricing depends on finished size, quantity per artwork, material and adhesive, finish, shape, application format, artwork readiness, freight and the number of labels that remain usable in production.
 - Small production teams comparing hand labeling with bottle applicators should confirm roll direction, core size, label gap, roll diameter, container consistency and placement tolerance before buying equipment.
 - Tapered bottle label fit depends first on container geometry: moving to a straighter panel, reducing label height, using a shaped dieline or separate front/back labels can reduce wrinkles and edge lift.
