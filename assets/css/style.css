@@ -747,6 +747,8 @@ section { padding: 72px 0; }
 }
 .article-figure .article-hero-image {
   margin: 0;
+  height: auto;
+  max-height: none;
 }
 .article-figure figcaption {
   margin-top: 7px;

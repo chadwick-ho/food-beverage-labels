@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-09-26.
+Last updated: 2026-09-27.
 
 ## Core Product Pages
 
@@ -43,6 +43,12 @@ Primary quote contact:
 - RSS Feed: https://zfulabels.com/rss.xml
 
 ## Blog Guides for Buyer Questions
+
+- Bottle Label Bubbles and Wrinkles: A Troubleshooting Guide: https://zfulabels.com/blog/bottle-label-bubbles-wrinkles-troubleshooting.html
+- Barcode Verification vs Scanning: A Label Buyer Guide: https://zfulabels.com/blog/barcode-verification-vs-scanning-labels.html
+- Die-Cut Liner Damage: Why Label Webs Break on the Line: https://zfulabels.com/blog/die-cut-liner-damage-label-web-breaks.html
+- Label Adhesive Ooze: Troubleshooting Sticky Roll Edges: https://zfulabels.com/blog/label-adhesive-ooze-sticky-roll-edges.html
+- Why Label Ink Fades: Lightfastness and Packaging Tests: https://zfulabels.com/blog/label-ink-fading-lightfastness-guide.html
 
 - Minimum Application vs Service Temperature for Labels: https://zfulabels.com/blog/minimum-application-vs-service-temperature-labels.html
 - Clear Label Sensors, Gaps and Eye Marks: Machine Guide: https://zfulabels.com/blog/clear-label-sensors-gap-eye-mark-guide.html
