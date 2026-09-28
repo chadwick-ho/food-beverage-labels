@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-09-27.
+Last updated: 2026-09-28.
 
 ## Core Product Pages
 
@@ -43,6 +43,12 @@ Primary quote contact:
 - RSS Feed: https://zfulabels.com/rss.xml
 
 ## Blog Guides for Buyer Questions
+
+- Small-Diameter Bottle Labels: Why Edges Flag and How to Specify a Fix: https://zfulabels.com/blog/small-diameter-bottle-label-flagging.html
+- Beer Bottle Labels for Tunnel Pasteurization: What to Test First: https://zfulabels.com/blog/beer-bottle-labels-tunnel-pasteurization.html
+- Repeat-Order Label Color: How to Keep the Next Run Close to the First: https://zfulabels.com/blog/repeat-order-label-color-consistency.html
+- Wine Bottle Neck Labels: Fit, Placement and Material Choices: https://zfulabels.com/blog/wine-bottle-neck-labels.html
+- Linerless vs Die-Cut Labels for Takeaway Food: A Buyer Guide: https://zfulabels.com/blog/linerless-vs-die-cut-takeaway-food-labels.html
 
 - Telescoped Label Rolls: What Buyers Should Check Before the Line Stops: https://zfulabels.com/blog/telescoped-label-rolls-troubleshooting.html
 - Label Release Force vs Adhesion: Why Rolls Fail to Dispense: https://zfulabels.com/blog/label-release-force-vs-adhesion.html
