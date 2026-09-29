@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-09-28.
+Last updated: 2026-09-29.
 
 ## Core Product Pages
 
@@ -43,6 +43,12 @@ Primary quote contact:
 - RSS Feed: https://zfulabels.com/rss.xml
 
 ## Blog Guides for Buyer Questions
+
+- Labels for Embossed Glass Wine Bottles: Find the Flat Panel First: https://zfulabels.com/blog/labels-for-embossed-glass-wine-bottles.html
+- Preprinted Labels with Thermal-Transfer Overprint: What Buyers Must Specify: https://zfulabels.com/blog/preprinted-labels-thermal-transfer-overprint.html
+- Labels on Recycled Paperboard Cartons: Adhesion Starts with the Surface: https://zfulabels.com/blog/labels-on-recycled-paperboard-cartons.html
+- Stand-Up Pouch Label Placement: Keep Clear of the Zipper and Seal: https://zfulabels.com/blog/stand-up-pouch-label-placement-zipper-seal.html
+- Deli Tub Lid Labels vs Bridge Seals: Which Job Must the Label Do?: https://zfulabels.com/blog/deli-tub-lid-bridge-labels.html
 
 - Small-Diameter Bottle Labels: Why Edges Flag and How to Specify a Fix: https://zfulabels.com/blog/small-diameter-bottle-label-flagging.html
 - Beer Bottle Labels for Tunnel Pasteurization: What to Test First: https://zfulabels.com/blog/beer-bottle-labels-tunnel-pasteurization.html
