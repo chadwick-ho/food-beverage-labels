@@ -40,6 +40,9 @@
 .buyer-entry .container { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .buyer-entry p { margin: 0; }
 .buyer-entry a { color: #0b7046; font-weight: 700; text-decoration: underline; }
+.related-reading { margin-top: 18px; color: #435260; }
+.related-reading a { color: #0b7046; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.related-reading a:hover { color: #075b39; }
 .buyer-updated { font-size: 13px; color: #53636e; }
 .quote-preview { width: 100%; min-height: 160px; padding: 12px; }
 @media(max-width:760px) {
