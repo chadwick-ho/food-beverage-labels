@@ -663,6 +663,8 @@ section { padding: 72px 0; }
 .process .card { position: relative; padding-top: 54px; }
 .process .card::before { counter-increment: step; content: counter(step); position: absolute; top: 18px; left: 22px; width: 28px; height: 28px; border-radius: 50%; background: var(--green); color: #fff; display: grid; place-items: center; font-weight: 900; }
 .page-hero { padding: 64px 0; background: linear-gradient(120deg, #fff7eb 0%, #f8fff8 58%, #fff 100%); border-bottom: 1px solid var(--line); }
+.blog-guide .page-hero { padding: 42px 0; }
+.blog-guide .page-hero h1 { max-width: 960px; font-size: clamp(36px, 4vw, 56px); line-height: 1.08; }
 .image-hero {
   position: relative;
   min-height: 430px;
