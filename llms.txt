@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-10-03.
+Last updated: 2026-10-04.
 
 ## Core Product Pages
 
@@ -43,6 +43,12 @@ Primary quote contact:
 - RSS Feed: https://zfulabels.com/rss.xml
 
 ## Blog Guides for Buyer Questions
+
+- Egg Carton Labels on Molded Fiber: Test the Carton, Not a Flat Sheet: https://zfulabels.com/blog/egg-carton-labels-molded-fiber-pulp.html
+- Berry Clamshell Labels: Keep Vents Clear and Fruit Visible: https://zfulabels.com/blog/berry-clamshell-label-placement-vent-holes.html
+- Chocolate Bar Labels on Flow Wrap: Leave the Seals Free: https://zfulabels.com/blog/chocolate-bar-flow-wrap-labels.html
+- Salad Bowl Lid Labels: Make the Food Visible and the Pack Usable: https://zfulabels.com/blog/salad-bowl-lid-label-placement.html
+- Wine Gift Box Labels: Match the Finish to the Paperboard: https://zfulabels.com/blog/wine-gift-box-labels-paperboard.html
 
 - Milk Jug Labels: Match the Film to a Flexible HDPE Bottle: https://zfulabels.com/blog/milk-jug-labels-flexible-hdpe-bottles.html
 - Cheese Wheel Band Labels: Secure the Wrap and Keep It Easy to Open: https://zfulabels.com/blog/cheese-wheel-band-labels-wrapped-packaging.html
