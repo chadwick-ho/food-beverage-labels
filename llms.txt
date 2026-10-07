@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-10-06.
+Last updated: 2026-10-07.
 
 ## Core Product Pages
 
@@ -43,6 +43,12 @@ Primary quote contact:
 - RSS Feed: https://zfulabels.com/rss.xml
 
 ## Blog Guides for Buyer Questions
+
+- HPP Juice Bottle Labels: Decide When to Apply Them: https://zfulabels.com/blog/hpp-juice-bottle-labels-process-order.html
+- Pickle Jar Labels: Plan for Brine and Wet Handling: https://zfulabels.com/blog/pickle-jar-labels-brine-wet-handling.html
+- Powdered Drink Tub Labels: Test the PP Surface First: https://zfulabels.com/blog/powdered-drink-tub-labels-pp-surface.html
+- Syrup Bottle Labels: Test the Pour-Down Zone: https://zfulabels.com/blog/syrup-bottle-labels-sticky-drips.html
+- Beverage Carton Labels: Keep Folds and Openings Clear: https://zfulabels.com/blog/beverage-carton-labels-folds-openings.html
 
 - Olive Oil Bottle Labels: Plan for Drips, Glass and Legibility: https://zfulabels.com/blog/olive-oil-bottle-labels-oil-drips.html
 - Bag-in-Box Wine Labels: Leave Room for the Tap and Folds: https://zfulabels.com/blog/bag-in-box-wine-carton-labels.html
