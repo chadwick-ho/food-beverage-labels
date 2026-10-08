@@ -2,7 +2,7 @@
 
 Custom Label Factory manufactures custom food labels, beverage labels and wine labels for B2B packaging buyers, brands, co-packers and manufacturers.
 
-Last updated: 2026-10-07.
+Last updated: 2026-10-08.
 
 ## Core Product Pages
 
@@ -258,3 +258,10 @@ Primary quote contact:
 - Date code and lot number label planning should reserve a readable marking area, avoid tight curves and confirm whether the code changes by batch before fixed artwork is approved.
 - Bottle label troubleshooting topics include peeling, edge lift, smudging, condensation, oily residue, cold application, curved bottles, oversized wraparound labels and material or adhesive mismatch.
 - Buyers should confirm final regulatory wording with the responsible brand, producer, importer or compliance professional for the destination market.
+
+## New Buyer Guides (2026-10-08)
+- Honey Jar Labels: Measure the Flat Panel Before You Buy the Roll: https://zfulabels.com/blog/honey-jar-labels-flat-panel-size-adhesive.html
+- Kombucha Bottle Labels: Test Cold Glass Before You Pick a Film: https://zfulabels.com/blog/kombucha-bottle-labels-refrigerated-wet-glass.html
+- Canned Coffee Labels: Make a Slim Can Wrap Work on the Line: https://zfulabels.com/blog/canned-coffee-pressure-sensitive-labels-slim-cans.html
+- Frozen Smoothie Pouch Labels: Keep the Spout and Seals Clear: https://zfulabels.com/blog/frozen-smoothie-spouted-pouch-labels.html
+- 187 mL Mini Wine Bottle Labels: Fit the Message Without Shrinking It Away: https://zfulabels.com/blog/mini-wine-bottle-labels-187ml-layout.html
