@@ -62,3 +62,37 @@
   .buyer-section td, .buyer-section td:first-child { display: block; width: 100%; padding: 6px 12px; border: 0; overflow-wrap: anywhere; }
   .buyer-section td:not(:first-child)::before { content: attr(data-label); display: block; color: #53636e; font-size: 12px; font-weight: 650; margin-bottom: 2px; }
 }
+
+/* Buyer decisions: readable text and ordinary links, available without JavaScript. */
+.decision-section { padding: 44px 0; background: #f5f8f7; color: #17212b; }
+.decision-section h2 { max-width: 900px; font-size: clamp(25px, 3vw, 34px); line-height: 1.25; margin: 8px 0 18px; letter-spacing: 0; }
+.decision-section h3 { font-size: 20px; line-height: 1.35; margin: 0 0 14px; }
+.decision-intro { max-width: 920px; font-size: 17px; line-height: 1.75; }
+.decision-section a { color: #0b7046; text-decoration: underline; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.decision-jumps { display: flex; flex-wrap: wrap; gap: 10px 20px; margin: 24px 0; }
+.decision-jumps a { padding: 7px 0; font-weight: 650; }
+.decision-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; margin: 26px 0; }
+.decision-grid-three { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.decision-card { background: #fff; border: 1px solid #dce5e1; border-radius: 8px; padding: 26px; min-width: 0; scroll-margin-top: 100px; }
+.decision-card p { line-height: 1.75; }
+.decision-card li { margin: 8px 0; }
+.decision-card ul { padding-left: 20px; }
+.decision-output { padding-top: 14px; border-top: 1px solid #dce5e1; font-size: 14px; }
+.decision-table-wrap { max-width: 100%; overflow-x: auto; margin: 24px 0; }
+.decision-table { width: 100%; border-collapse: collapse; background: #fff; line-height: 1.65; }
+.decision-table caption { text-align: left; font-weight: 650; margin-bottom: 12px; }
+.decision-table th, .decision-table td { padding: 16px; text-align: left; vertical-align: top; border: 1px solid #dce5e1; }
+.decision-table thead th { background: #eaf1ed; }
+.decision-table th:first-child { width: 24%; }
+.buyer-route p { max-width: 880px; }
+@media(max-width:760px) {
+ .decision-section { padding: 30px 0; }
+ .decision-grid, .decision-grid-three { grid-template-columns: minmax(0,1fr); gap: 16px; }
+ .decision-card { padding: 22px; }
+ .decision-table, .decision-table tbody, .decision-table tr, .decision-table td, .decision-table tbody th { display: block; width: 100%; }
+ .decision-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+ .decision-table tbody th { background: #eaf1ed; }
+ .decision-table td { border-top: 0; overflow-wrap: anywhere; }
+ .decision-table td::before { content: attr(data-label); display: block; font-size: 13px; font-weight: 700; color: #53636e; }
+ .decision-table tr { margin-bottom: 16px; }
+}
