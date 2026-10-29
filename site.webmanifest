@@ -1,6 +1,6 @@
 {
-  "name": "Custom Label Factory",
-  "short_name": "CL Factory",
+  "name": "ZFU Labels",
+  "short_name": "ZFU Labels",
   "description": "Custom food, beverage and wine label manufacturing with material guidance, digital proof and WhatsApp quote support.",
   "start_url": "/index.html",
   "display": "standalone",
