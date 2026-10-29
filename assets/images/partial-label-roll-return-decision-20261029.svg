@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1060" viewBox="0 0 640 1060" role="img" aria-labelledby="title desc">
+ <title id="title">Can a partly used label roll return to stock?</title>
+ <desc id="desc">Record roll identity and remaining count, examine wrapping and exposure, then reserve or hold the roll pending authorization.</desc>
+ <rect width="640" height="1060" fill="#f2f7f7"/>
+ <rect width="640" height="150" fill="#16404c"/>
+ <text x="32" y="45" font-family="Arial" font-size="21" fill="#a9e9d7">BUYER DECISION / LABEL STOCK</text>
+ <text x="32" y="91" font-family="Arial" font-size="30" font-weight="bold" fill="white">Returning a partly used roll</text>
+ <text x="32" y="126" font-family="Arial" font-size="23" fill="white">Protect identity, history and the next run</text>
+ <g font-family="Arial" fill="#173f50">
+  <rect x="35" y="180" width="570" height="130" rx="12" fill="white" stroke="#bad0d8" stroke-width="2"/>
+  <text x="55" y="216" font-size="24" font-weight="bold" fill="#087a78">1. IDENTIFY AND COUNT</text>
+  <text x="55" y="251" font-size="21">SKU, revision, roll reference and work order.</text>
+  <text x="55" y="283" font-size="21">Separate verified count from an estimate.</text>
+  <path d="M320 310v38" stroke="#6b91a0" stroke-width="4"/><path d="M310 337l10 15 10-15" fill="#6b91a0"/>
+  <rect x="35" y="355" width="570" height="130" rx="12" fill="white" stroke="#bad0d8" stroke-width="2"/>
+  <text x="55" y="391" font-size="24" font-weight="bold" fill="#087a78">2. RECORD EXPOSURE</text>
+  <text x="55" y="426" font-size="21">When and where was the roll opened?</text>
+  <text x="55" y="458" font-size="21">Record observations and unknown intervals.</text>
+  <path d="M320 485v38" stroke="#6b91a0" stroke-width="4"/><path d="M310 512l10 15 10-15" fill="#6b91a0"/>
+  <rect x="35" y="530" width="570" height="145" rx="12" fill="white" stroke="#bad0d8" stroke-width="2"/>
+  <text x="55" y="566" font-size="24" font-weight="bold" fill="#087a78">3. PROTECT FOR RETURN</text>
+  <text x="55" y="601" font-size="21">Use suitable original or agreed protection.</text>
+  <text x="55" y="633" font-size="21">If wrapping is damaged or wet, preserve</text>
+  <text x="55" y="661" font-size="21">the evidence and ask the responsible owner.</text>
+  <path d="M320 675v38" stroke="#6b91a0" stroke-width="4"/><path d="M310 702l10 15 10-15" fill="#6b91a0"/>
+  <rect x="35" y="720" width="275" height="155" rx="12" fill="#e4f4ec" stroke="#bad0d8" stroke-width="2"/>
+  <text x="53" y="755" font-size="22" font-weight="bold" fill="#087a78">MATCHED / CLEARED</text>
+  <text x="53" y="789" font-size="20">Reserve confirmed stock</text><text x="53" y="817" font-size="20">for the correct job.</text><text x="53" y="845" font-size="20">Keep count uncertainty.</text>
+  <rect x="330" y="720" width="275" height="155" rx="12" fill="#fff0eb" stroke="#bad0d8" stroke-width="2"/>
+  <text x="348" y="755" font-size="22" font-weight="bold" fill="#087a78">REVIEW NEEDED</text>
+  <text x="348" y="789" font-size="20">Hold affected stock.</text><text x="348" y="817" font-size="20">Assign an owner and</text><text x="348" y="845" font-size="20">the missing evidence.</text>
+  <text x="35" y="925" font-size="21">Repacking limits further exposure; it does not</text>
+  <text x="35" y="955" font-size="21">prove that an earlier unknown interval was safe.</text>
+  <text x="35" y="1014" font-size="17">Planning aid • follow the supplied construction's actual guidance</text>
+ </g>
+</svg>
