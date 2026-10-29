@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Label Approval Handoff Worksheet | ZFU Labels</title>
+<meta name="description" content="A printable worksheet that separates artwork, package application and roll-format approval for a label order.">
+<meta name="robots" content="noindex,follow"><link rel="canonical" href="https://zfulabels.com/label-buying-guide.html#approval-handoff">
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#182b3c;background:#eff4f7;font-size:16px}*{box-sizing:border-box}body{margin:0}main{max-width:1120px;margin:auto;padding:30px 24px 50px}a{color:#075771;text-underline-offset:3px}h1{font-size:2rem;line-height:1.15;margin:10px 0}h2{font-size:1.22rem;margin:0 0 12px}p{line-height:1.55}.eyebrow{font-size:.8rem;font-weight:750;letter-spacing:.08em;color:#526777}.intro{max-width:850px}.toolbar{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:22px 0}button{font:inherit;font-weight:650;border:0;border-radius:6px;background:#075771;color:white;padding:12px 18px;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #c67100;outline-offset:3px}.fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}.field{display:flex;flex-direction:column;gap:6px;font-size:.9rem;font-weight:600}input,textarea{width:100%;font:inherit;color:#182b3c;background:white;border:1px solid #a6b8c2;border-radius:4px;padding:9px;min-height:42px}textarea{min-height:92px;resize:vertical;font-weight:400}.scopes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.scope{background:#fff;border:1px solid #c2d1d9;border-top:5px solid #087b82;border-radius:7px;padding:18px}.scope p{font-size:.93rem;margin:8px 0 16px}.scope .field{margin-top:12px}.scope .boundary{background:#f0f6f8;padding:10px;border-radius:4px}.release{margin-top:20px;padding:20px;background:white;border:2px solid #516d7b;border-radius:7px}.release .fields{margin:14px 0}.hint{font-size:.88rem;color:#405768}.branch{font-weight:700;color:#713d00}.footer{margin-top:24px;font-size:.88rem;line-height:1.5;border-top:1px solid #bdcdd5;padding-top:16px}ol{padding-left:22px;line-height:1.6}li{margin:8px 0}@media(max-width:760px){main{padding:22px 16px}h1{font-size:1.65rem}.fields,.scopes{grid-template-columns:1fr}.scope{padding:17px}}@media print{@page{size:A4 landscape;margin:11mm}:root{background:white;font-size:10pt}main{padding:0;max-width:none}.toolbar{display:none}h1{font-size:21pt}.fields{margin:10px 0;gap:9px}.scopes{gap:10px;grid-template-columns:repeat(3,minmax(0,1fr))}.scope{padding:10px;break-inside:avoid}.scope p{font-size:9pt;margin:5px 0 9px}h2{font-size:12pt}.field{font-size:9pt;gap:3px}input{min-height:24px;padding:4px}textarea{min-height:54px;padding:4px}.scope .field{margin-top:7px}.release{padding:12px;margin-top:12px;break-inside:avoid}.release .fields{grid-template-columns:repeat(3,minmax(0,1fr))}.footer{font-size:8pt;margin-top:12px;padding-top:8px}a{color:inherit}ol{margin:6px 0}.intro{margin:7px 0}}
+</style></head><body><main>
+<p class="eyebrow">ZFU LABELS · BUYER WORKSHEET · VERSION 1 / 29 OCTOBER 2026</p>
+<h1>Label Approval Handoff Worksheet</h1>
+<p class="intro">Keep artwork approval, package-use evidence and delivery-format acceptance attached to the same job revision. A decision in one scope does not approve the other two. Start blank; enter the actual evidence, responsible person and limits of each decision.</p>
+<div class="toolbar"><button type="button" id="print-sheet">Print / save as PDF</button><a href="label-approval-handoff.csv" download>Download blank CSV</a><a href="/label-buying-guide.html#approval-handoff">Read the buying guide</a></div>
+<p class="hint">Fields stay in this page while it is open. This worksheet does not save or send entries. Print completed fields before closing or reloading; add sheets if a field is too small. The CSV is a blank template, not an export of these entries.</p>
+<div class="fields">
+<label class="field">Job / order reference<input name="job" autocomplete="off"></label>
+<label class="field">SKU(s) and label role<input name="sku" autocomplete="off"></label>
+<label class="field">Shared specification revision / date<input name="revision" autocomplete="off"></label>
+</div>
+<div class="scopes" aria-label="Three separate approval scopes">
+<section class="scope"><h2>1 · Artwork &amp; appearance</h2>
+<p><strong>Evidence:</strong> identified artwork file, cut outline and copy approval; any agreed physical colour reference has its own ID and scope.</p>
+<p class="boundary"><strong>Boundary:</strong> a PDF can establish a content/layout decision. It does not establish adhesion, physical colour or machine performance.</p>
+<label class="field">Evidence ID / revision<textarea name="artwork-evidence"></textarea></label>
+<label class="field">Approved scope and exclusions<textarea name="artwork-scope"></textarea></label>
+<label class="field">Owner · decision date · status<input name="artwork-owner" autocomplete="off"></label>
+</section>
+<section class="scope"><h2>2 · Package &amp; application</h2>
+<p><strong>Evidence:</strong> identified sample/construction, actual package surface, application conditions, handling sequence and agreed acceptance criteria.</p>
+<p class="boundary"><strong>Boundary:</strong> record what was observed and what remains untested. A different package, surface or use route needs an impact review.</p>
+<label class="field">Evidence ID / conditions<textarea name="package-evidence"></textarea></label>
+<label class="field">Approved scope and exclusions<textarea name="package-scope"></textarea></label>
+<label class="field">Owner · decision date · status<input name="package-owner" autocomplete="off"></label>
+</section>
+<section class="scope"><h2>3 · Delivery format &amp; line</h2>
+<p><strong>Evidence:</strong> station-specific drawing, core and roll limits, web/gap requirements, unwind orientation and the agreed SKU/roll allocation.</p>
+<p class="boundary"><strong>Boundary:</strong> a loose-label photo does not establish supplied roll compatibility. Use the line owner's actual specification and procedures.</p>
+<label class="field">Evidence ID / station reference<textarea name="format-evidence"></textarea></label>
+<label class="field">Approved scope and exclusions<textarea name="format-scope"></textarea></label>
+<label class="field">Owner · decision date · status<input name="format-owner" autocomplete="off"></label>
+</section></div>
+<section class="release"><h2>Reconcile before the authorised release</h2>
+<p class="branch">Missing evidence or a conflicting revision? Hold the affected scope and assign its unresolved question. Do not infer approval from a blank field.</p>
+<ol><li>Use explicit status words: OPEN, UNDER REVIEW, HOLD or APPROVED FOR THE STATED SCOPE. Include the decision date and named responsible person.</li><li>Check that all relevant evidence represents the intended job. The authorised release owner decides whether unresolved items prevent release under the agreed order and site procedures.</li><li>After a change, record which evidence remains representative and which scope reopens. A routine copy edit and a new container surface do not create the same review task.</li></ol>
+<label class="field">Open item · affected scope · owner · next evidence required<textarea name="open-items"></textarea></label>
+<div class="fields"><label class="field">Change / retained evidence reference<input name="change" autocomplete="off"></label><label class="field">Release decision / limitations<input name="release" autocomplete="off"></label><label class="field">Authorised owner / date<input name="release-owner" autocomplete="off"></label></div>
+</section>
+<p class="footer">Blank editorial planning tool from <a href="https://zfulabels.com/label-buying-guide.html#approval-handoff">zfulabels.com/label-buying-guide.html#approval-handoff</a>. It is not a completed test report, certification, regulatory approval or substitute for an agreed order specification. Supply the actual project evidence; no customer outcome is implied.</p>
+</main><script>document.getElementById('print-sheet').addEventListener('click',function(){window.print();});</script></body></html>
