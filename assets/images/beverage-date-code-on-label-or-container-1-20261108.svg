@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="480" viewBox="0 0 660 480"><title>Two possible code surfaces</title>
+<rect width="660" height="480" rx="16" fill="#eef4ef"/>
+<g font-family="Arial, sans-serif" fill="#193448"><text x="28" y="48" font-weight="bold" font-size="29">Two possible code surfaces</text>
+<path d="M240 105H390V159Q448 197 448 249V407H183V249Q183 197 240 159Z" fill="#b7d6c5" stroke="#315e60" stroke-width="4"/><rect x="208" y="267" width="214" height="96" rx="12" fill="#fcf8e7"/><rect x="287" y="296" width="113" height="46" rx="7" fill="#f2cb78"/><rect x="326" y="185" width="65" height="36" rx="6" fill="#f2cb78"/><path d="M393 203L493 175M402 319L484 319" stroke="#92652f" stroke-width="4"/><text x="477" y="153" font-size="24">Container</text><text x="492" y="192" font-size="24">mark area</text><text x="474" y="304" font-size="24">Label</text><text x="474" y="350" font-size="24">window</text>
+<text x="28" y="453" font-size="22">Example locations on one bottle.</text></g></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="480" viewBox="0 0 660 480"><title>Where two empty cups meet</title>
+<rect width="660" height="480" rx="16" fill="#eef4ef"/>
+<g font-family="Arial, sans-serif" fill="#193448"><text x="28" y="48" font-weight="bold" font-size="29">Where two empty cups meet</text>
+<path d="M120 120H520L478 365H165Z" fill="#d7e5df" stroke="#28596a" stroke-width="5"/><path d="M137 160H505L465 325H176Z" fill="#f7faf8" stroke="#28596a" stroke-width="5"/><path d="M485 227L470 302" stroke="#ce8b34" stroke-width="13" stroke-linecap="round"/><path d="M451 274H475" stroke="#9b6225" stroke-width="3"/><text x="42" y="99" font-size="25">Outer cup</text><text x="218" y="206" font-size="26">Nested cup</text><text x="183" y="285" font-size="25">Proposed label band</text><path d="M520 291L473 287" stroke="#9b6225" stroke-width="4"/><text x="357" y="407" font-size="24">Check the contact zone</text>
+<text x="28" y="453" font-size="22">Conceptual section of nested cups.</text></g></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="480" viewBox="0 0 660 480"><title>Map both faces on the packed case</title>
+<rect width="660" height="480" rx="16" fill="#eef4ef"/>
+<g font-family="Arial, sans-serif" fill="#193448"><text x="28" y="48" font-weight="bold" font-size="29">Map both faces on the packed case</text>
+<path d="M85 169L376 112L574 177L298 237Z" fill="#ecd4aa" stroke="#735731" stroke-width="4"/><path d="M85 169L298 237V391L85 317Z" fill="#d4b687" stroke="#735731" stroke-width="4"/><path d="M298 237L574 177V330L298 391Z" fill="#e3c79a" stroke="#735731" stroke-width="4"/><path d="M144 235L298 285L490 244V294L298 337L144 285Z" fill="#f7fbfa" stroke="#4c8175" stroke-width="4"/><path d="M298 285V337" stroke="#a46632" stroke-width="5"/><text x="86" y="371" font-size="25">Face A</text><text x="498" y="376" font-size="25">Face B</text><text x="350" y="99" font-size="25">Packed corrugated case</text>
+<text x="28" y="453" font-size="22">Schematic of a continuous case label.</text></g></svg>

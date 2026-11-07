@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="480" viewBox="0 0 660 480"><title>Which inventory can still switch SKU?</title>
+<rect width="660" height="480" rx="16" fill="#eef4ef"/>
+<g font-family="Arial, sans-serif" fill="#193448"><text x="28" y="48" font-weight="bold" font-size="29">Which inventory can still switch SKU?</text>
+<path d="M175 164L130 240M175 164L259 240M480 164L441 240M480 164L552 240" stroke="#527c6d" stroke-width="4"/><rect x="40" y="105" width="257" height="64" rx="9" fill="#acd1bb"/><rect x="356" y="105" width="257" height="64" rx="9" fill="#f6d695"/><text x="66" y="146" font-size="26">Molded with artwork</text><text x="400" y="146" font-size="26">Stock tub pool</text><text x="58" y="277" font-size="25">Dip A tub</text><text x="206" y="277" font-size="25">Dip B tub</text><text x="355" y="277" font-size="25">Apply A label</text><text x="510" y="277" font-size="25">Apply B label</text><text x="53" y="359" font-size="25">Dedicated after molding</text><text x="358" y="359" font-size="25">Shared until labeling</text>
+<text x="28" y="453" font-size="22">Example assumes a shared stock tub item.</text></g></svg>
