@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="480" viewBox="0 0 660 480"><title>An inlay shares a case with the food</title>
+<rect width="660" height="480" rx="16" fill="#eef4ef"/>
+<g font-family="Arial, sans-serif" fill="#193448"><text x="28" y="48" font-weight="bold" font-size="29">An inlay shares a case with the food</text>
+<rect x="66" y="127" width="504" height="254" rx="12" fill="#dfc094" stroke="#755a38" stroke-width="4"/><g fill="#afd3c4" stroke="#426f68" stroke-width="4"><rect x="157" y="178" width="66" height="149" rx="17"/><rect x="251" y="178" width="66" height="149" rx="17"/><rect x="345" y="178" width="66" height="149" rx="17"/></g><rect x="440" y="221" width="105" height="58" rx="8" fill="#f9fcfb" stroke="#4a7f71" stroke-width="4"/><path d="M456 250H530M467 237H519M467 263H519" stroke="#93642e" stroke-width="4"/><text x="111" y="105" font-size="26">Packed beverage case</text><text x="86" y="421" font-size="24">Test the label with the actual contents.</text>
+<text x="28" y="453" font-size="22">Conceptual case, bottles and inlay position.</text></g></svg>
