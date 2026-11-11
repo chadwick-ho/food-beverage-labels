@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="480" viewBox="0 0 660 480"><title>Check what survives each crate turn</title>
+<rect width="660" height="480" rx="16" fill="#eef4ef"/>
+<g font-family="Arial, sans-serif" fill="#193448"><text x="28" y="48" font-weight="bold" font-size="29">Check what survives each crate turn</text>
+<path d="M63 155H594M63 309H594" stroke="#72968a" stroke-width="4"/><text x="55" y="108" font-size="25">Asset mark</text><text x="61" y="205" font-size="25">Carry the same crate reference forward.</text><text x="55" y="262" font-size="25">Shipment label</text><text x="62" y="359" font-size="24">Pack and read, then clear for the next load.</text><rect x="61" y="140" width="536" height="26" rx="10" fill="#7fa892"/><rect x="61" y="295" width="316" height="26" rx="10" fill="#e4bc78"/><circle cx="383" cy="308" r="13" fill="#a96c30"/>
+<text x="28" y="453" font-size="22">Removal follows the actual pool process.</text></g></svg>
